@@ -1,0 +1,132 @@
+.bookdetail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.img {
+  width: 50%;
+  height: auto;
+  float: right;
+  margin-left: 188px;
+}
+
+.bookdetail__info {
+  width: 50%;
+  margin-left: 50px;
+}
+
+.bookdetail__info__titleprice {
+  position: relative;
+  bottom: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookdetail__info__titleprice h1 {
+  font-family: "Lora";
+  font-weight: bold;
+  font-size: 48px;
+  letter-spacing: 0px;
+  color: #000;
+  margin: 0;
+  opacity: 1;
+}
+
+.bookdetail__info__titleprice p {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 38px;
+  letter-spacing: 0px;
+  color: #b69454;
+  margin: 0;
+  opacity: 1;
+}
+
+.bookdetail__info__author {
+  position: relative;
+  bottom: 82px;
+  font-family: "Lora";
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #000;
+  margin: 0;
+  opacity: 1;
+}
+
+.bookdetail__info__author p {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 1rem;
+  color: #262626;
+  font-family: "Lora";
+  font-weight: bold;
+  size: 24px;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.bookdetail__info__author span {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 1rem;
+  color: #262626;
+  font-family: "Roboto";
+  font-weight: normal;
+  size: 20px;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.bookdetail__info__author span, .bookdetail__info__author p{
+  display: inline;
+  padding: 0.10rem 0.2rem;
+}
+
+p {
+  margin-top: 48px;
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #000;
+  margin: 0;
+  opacity: 1;
+}
+
+.bookdetail__info__button {
+  position: relative;
+  bottom: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookdetail__info button {
+  cursor: pointer;
+  width: 232px;
+  height: 40px;
+  background-color: #000000;
+  color: white;
+  font: "Lora";
+  font-size: 14px;
+  letter-spacing: 0px;
+  opacity: 1;
+  border: 1px solid #000000;
+  padding: 0.25rem 1rem;
+  border-radius: 6px;
+  margin-top: 48px;
+}
+
+.bookdetail__info button:hover {
+  background-color: #fff;
+  color: #262626;
+  border: 2px solid black;;
+}

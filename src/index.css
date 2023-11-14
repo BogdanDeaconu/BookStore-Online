@@ -1,0 +1,9 @@
+:root {
+  background-color: rgb(255, 255, 255);
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}

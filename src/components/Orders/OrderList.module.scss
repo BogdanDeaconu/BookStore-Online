@@ -1,0 +1,19 @@
+.orderlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-top: 5%;
+
+  font-family: "Lora";
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 1.2;
+  color: #262626;
+  opacity: 1;
+}

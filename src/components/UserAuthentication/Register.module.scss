@@ -1,0 +1,135 @@
+.register {
+    display: flex;
+    flex-direction: space-between;
+    margin: 0 auto;
+  }
+  
+  .register img {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 30%;
+    height: 620px;
+    margin-top: 50px;
+    margin-left: 150px;
+    top: 90px;
+    left: 150px;
+  }
+  
+  .content {
+    border-radius: 5px;
+    padding: 10px;
+    top: 20px;
+    margin: 10px;
+    width: 630px;
+    margin-right: 300px;
+  }
+  
+  .content h1 {
+    font-family: "Lora";
+    font-weight: bolder;
+    font-size: 38px;
+    margin-top: 38px;
+  }
+
+  .content p {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #262626;
+  }
+  
+  .content h2 {
+    text-align: left;
+    margin: 10px;
+    margin-top: 48px;
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 14px;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .inputs input {
+    width: auto;
+    height: 40px;
+    border: 1px solid #9F9F9F;
+    padding: 2px 10px;
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+  
+  .inputs input.input_error {
+    width: auto;
+    height: 40px;
+    border: 1px solid #9F9F9F;
+    padding: 2px 10px;
+    font-family: "Roboto";
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 0px;
+    opacity: 1;
+    background-color: #ffcccc;
+  }
+  
+  .checkbox {
+      display: inline-block;
+      position: relative;
+      padding-left: 5px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 14px;
+      font-family: "Roboto";
+      font-size: 14px;
+      letter-spacing: 0px;
+      opacity: 1;
+      margin-top: 20px; 
+  }
+  
+  .checkbox input{
+      position: relative;
+      top: 2px;
+      margin-left: 3px;
+      width: 15px;
+      height: 15px;
+      border-radius: 3px;
+      background-color: #eee; 
+  }
+  
+  .checkbox label{
+      display: inline-block;
+      position: relative;
+      padding-left: 0px;
+      cursor: pointer;
+      font-size: 14px;
+      font-family: "Roboto";
+      font-size: 14px;
+      letter-spacing: 0px;
+      opacity: 1;
+  }
+  
+  .register_button {
+      margin-top: 76px;
+      background-color: #262626;
+      color: #fff;
+      width: 232px;
+      border-radius: 5px;
+      padding: 0.5rem 1rem;
+      font-family: "Lora";
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+  }
+  
+  .register_button:hover {
+      background-color: #fff;
+      color: #262626;
+      border: 2px solid black;
+  }

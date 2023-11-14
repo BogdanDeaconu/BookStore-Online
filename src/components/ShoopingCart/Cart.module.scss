@@ -1,0 +1,109 @@
+.title {
+  font-family: "Lora";
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #262626;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: left;
+  margin-bottom: 64px;
+  margin-left: 10%;
+  margin-top: 110px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.total span {
+  font-family: "Lora";
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #262626;
+}
+
+.total p {
+  padding: 0.15rem 0.5rem;
+  color: #b69454;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 20px;
+  opacity: 1;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.back_button {
+  background-color: #fff;
+  color: f#262626;
+  border: 2px solid black;
+  width: 232px;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-family: "Lora";
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.back_button:hover {
+  background-color: #262626;
+  color: #fff;
+}
+
+.checkout_button {
+  background-color: #262626;
+  color: #fff;
+  width: 232px;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-family: "Lora";
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.checkout_button:hover {
+  background-color: #fff;
+  color: #262626;
+  border: 2px solid black;
+}
+
+.empty_cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.empty_cart p{
+  font-family: "Lora";
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0px;
+  opacity: 1;
+  color: #262626;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
